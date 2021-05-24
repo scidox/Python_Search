@@ -16,7 +16,7 @@ for n in range(cicli):
         print(lettura)
         webbrowser.open('https://www.bing.com/search?q='+str(lettura))
         time.sleep(value)
-        #firefox
+        #firefox browser
         #webbrowser.get("firefox").open('https://www.bing.com/search?q='+str(lettura))
 
 time.sleep(10)

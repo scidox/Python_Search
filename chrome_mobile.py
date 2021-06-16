@@ -10,7 +10,7 @@ mobileEmulation = {"deviceMetrics": {"width": WIDTH, "height": HEIGHT, "pixelRat
 options = webdriver.ChromeOptions()
 options.add_experimental_option('mobileEmulation', mobileEmulation)
 
-#inser in the folder chromedriver.exe, download from https://chromedriver.chromium.org/
+#insert in the folder chromedriver.exe, download from https://chromedriver.chromium.org/
 
 driver = webdriver.Chrome(r"C:\Users\Giorgio\Desktop\py\chromedriver.exe", chrome_options=options)
 driver.get('https://www.zoomingin.net')

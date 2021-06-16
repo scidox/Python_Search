@@ -21,4 +21,5 @@ for n in range(cicli):
         #webbrowser.get("firefox").open('https://www.bing.com/search?q='+str(lettura))            
 
 time.sleep(10)
-#os.system("killall -9 'chrome'")
+#os.system("taskkill /im chrome.exe /f")
+

@@ -6,7 +6,7 @@ user_agent='Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/6
 #if you want to change user agent open firefox> Ctrl+Alt+m and choose the new user_agent
 profile= webdriver.FirefoxProfile()
 profile.set_preference('general.useragent.override',user_agent)
-#inser in the folder geckodriver.exe, download from https://github.com/mozilla/geckodriver/releases
+#insert in the folder geckodriver.exe, download from https://github.com/mozilla/geckodriver/releases
 FireFoxDriverPath= os.path.join(os.getcwd(), 'Drivers',r"C:\Users\Giorgio\Desktop\py\geckodriver.exe")
 url='https://www.bing.com'
 browser=webdriver.Firefox(executable_path=FireFoxDriverPath,firefox_profile=profile)

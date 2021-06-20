@@ -1,3 +1,3 @@
 Python_Search file
 
-using python 
+examples of using python libraries for browser search
